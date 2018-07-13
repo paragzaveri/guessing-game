@@ -13,19 +13,30 @@
 
         <div id='headers'>
           <!-- Title and subtitles! -->
+          <h1>Play the Guessing Game!</h1>
+          <h3>Guess a number between 1-100!</h3>
         </div>
 
         <div id='main'>
           <div id='input-parent'>
             <!-- Player's guess input, and submit button -->
+            <input type="number" id="current-guess" minlength="1" maxlength="2" placeholder="#" autofocus/>
+            <button type="button">Submit</button>
           </div>
 
           <div id='guesses'>
             <!-- unordered list of guesses -->
+            <span class="previous-guess">-</span>
+            <span class="previous-guess">-</span>
+            <span class="previous-guess">-</span>
+            <span class="previous-guess">-</span>
+            <span class="previous-guess">-</span>
           </div>
 
           <div id="menu-btns">
             <!-- reset and hint buttons -->
+            <button type="button">Reset</button>
+            <button type="button">Hint</button>
           </div>
         </div>
       </div>
